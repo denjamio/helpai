@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #answer[busy] svg {
+    @apply block;
+  }
+
+  #answer[busy] .answer {
+    @apply hidden;
+  }
+}
